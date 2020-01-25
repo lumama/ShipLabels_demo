@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info>
+	<user>
+		databse user name
+	</user>
+	<dbpw>
+		database user password
+	</dbpw>
+	<host>
+		localhost
+	</host>
+	<db>
+		databse name
+	</db>
+	<company>Company Name</company>
+	
+</info>

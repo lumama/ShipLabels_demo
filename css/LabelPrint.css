@@ -1,0 +1,39 @@
+/* 
+    Label print style
+*/
+
+
+//do not print header, footer and control area
+#header, #footer, #control {
+    display:none !important;
+}
+
+#print_label, .noprint {
+    display:none !important;
+}
+
+//do not print the sliders
+.vslider_section, .hslider_section {
+    display:none;
+}
+
+
+#label_area {
+    color:black;
+    text-align:center;
+    margin:0;
+    padding:0;   
+    overflow:hidden;
+    border-style: solid;
+    border-width: thin;
+    border-color: red;
+}
+
+//element style with label detail
+.element {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}  
+
+

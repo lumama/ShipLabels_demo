@@ -1,0 +1,65 @@
+/* 
+    Label web page style
+*/
+
+
+textarea.address_format {
+    text-align:left;
+    padding: 0.5em;
+}
+
+.label_list {
+    min-width:90%;
+    text-align:right;
+    padding: 0.5em;
+}
+
+.print_only {
+    display:none;
+}
+
+
+/*horizontal slider*/
+.hslider_section {
+    width:315px;
+    margin-left:300px;
+             
+}
+
+/*vertical slider*/
+.vslider_section {
+    height:400px;
+    text-align:right;
+ 
+}
+
+#label_area {
+    border-style: solid;
+    border-width: thick;
+    border-color: blue;
+    text-align:center;
+    margin:0.5em;
+    height:410px;
+    width:610px;
+    font-size:medium;
+    overflow:hidden;
+}
+          
+.element {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}          
+     
+#width, #height {
+    font-size:1.3em;
+    font-weight:bold;
+    padding:0.2em;
+}
+
+
+
+
+
+
+
